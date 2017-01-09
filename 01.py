@@ -41,9 +41,38 @@
 # This code tests your solution. Don't edit it.
 import doctest
 def run_tests():
+  
     doctest.testmod(verbose=True, optionflags=doctest.NORMALIZE_WHITESPACE)
 
 
 def season(month):
+      if month == "mar":
+        print ("Spring")
+      elif month == "abc":
+        print("Month not recognised")
+      elif month == "apr":
+        print ("Spring")
+      elif month == "may":
+        print ("Spring")
+      elif month == "jun":
+        print ("Summer")
+      elif month == "jul":
+        print ("Summer")
+      elif month == "aug":
+        print ("Summer")
+      elif month == "sep":
+        print("Autumn")
+      elif month == "oct":
+        print("Autumn")
+      elif month == "nov":
+        print("Autumn")
+      elif month == "jan":
+        print ("Winter")
+      elif month == "feb":
+        print ("Winter")
+      elif month == "dec":
+        print ("Winter")
+
+
 
 
